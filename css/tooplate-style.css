@@ -94,6 +94,7 @@ p {
     border: 1px solid white;
     cursor: pointer;
     position: relative;
+    text-decoration: none;
 }
 
 .tm-nav-text {
@@ -108,12 +109,13 @@ p {
 .product {
     background: transparent;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .product:hover {
     background: #2c2a35;
-    border-radius: 50px;
     color: #a9a9a9;
+    text-decoration: none;
 }
 
 .tm-nav-icon {    
